@@ -1,0 +1,108 @@
+class Phoneme {
+    symbol;
+    group;
+    name;
+
+    spellings;
+    words;
+    notes;
+
+    url_wiki;
+    url_pro;
+    url_word;
+    url_notes;
+
+    constructor(s, g, na, sps, wos, no, uwi, up, uwo, un) {
+        this.symbol = s;
+        this.group = g;
+        this.name = na;
+
+        this.spellings = sps;
+        this.words = wos;
+        this.notes = no;
+
+        this.url_wiki = uwi;
+        this.url_pro = up;
+        this.url_word = uwo;
+        this.url_notes = un;
+    }
+}
+
+class PhonemeGroup {
+    name;
+    phonemes;
+
+    constructor(name, phonemes) {
+        this.name = name;
+        this.phonemes = phonemes;
+    }
+}
+
+// Phoneme('s', 'g', 'na', ['sp'], ['wo'], 'no', 'uwi', 'up', 'uwo', 'un');
+
+const fr_voyelles_orales = PhonemeGroup('voyelles orales', [
+    Phoneme('a', 'voyelle orale', 'Open front unrounded vowel', ['a'], ['Avion'], '___', 'https://en.wikipedia.org/wiki/Open_front_unrounded_vowel', 'https://en.wikipedia.org/wiki/File:Open_front_unrounded_vowel.ogg', '', ''),
+    Phoneme('ɑ', 'voyelle orale', 'Open back unrounded vowel',  ['â'], ['fÂché'], '___', 'https://en.wikipedia.org/wiki/Open_back_unrounded_vowel', 'https://en.wikipedia.org/wiki/File:Open_back_unrounded_vowel.ogg', '___', '___'),
+    Phoneme('e', 'voyelle orale', 'Close-mid front unrounded vowel', ['é'], ['bÉbÉ'], '___', 'https://en.wikipedia.org/wiki/Close-mid_front_unrounded_vowel', 'https://en.wikipedia.org/wiki/File:Close-mid_front_unrounded_vowel.ogg', '___', '___'),
+    Phoneme('ɛ', 'voyelle orale', 'Open-mid front unrounded vowel', ['è'], ['flÈche'], '___', 'https://en.wikipedia.org/wiki/Open-mid_front_unrounded_vowel', 'https://en.wikipedia.org/wiki/File:Open-mid_front_unrounded_vowel.ogg', '___', '___'),
+    Phoneme('ə', 'voyelle orale', 'Mid central vowel', ['e'], ['rEnard'], '___', 'https://en.wikipedia.org/wiki/Mid_central_vowel', 'https://en.wikipedia.org/wiki/File:Mid-central_vowel.ogg', '___', '___'),
+    Phoneme('i', 'voyelle orale', 'Close front unrounded vowel', ['i'], ['amIs'], '___', 'https://en.wikipedia.org/wiki/Close_front_unrounded_vowel', 'https://en.wikipedia.org/wiki/File:Close_front_unrounded_vowel.ogg', '___', '___'),
+    Phoneme('y', 'voyelle orale', 'Close front rounded vowel', ['u'], ['lUne'], '___', 'https://en.wikipedia.org/wiki/Close_front_rounded_vowel', 'https://en.wikipedia.org/wiki/File:Close_front_rounded_vowel.ogg', '___', '___'),
+    Phoneme('ø', 'voyelle orale', 'Close-mid front rounded vowel', ['eu'], ['fEU'], '___', 'https://en.wikipedia.org/wiki/Close-mid_front_rounded_vowel', 'https://en.wikipedia.org/wiki/File:Close-mid_front_rounded_vowel.ogg', '___', '___'),
+    Phoneme('œ', 'voyelle orale', 'Open-mid front ronded vowel', ['œu'], ['cŒUr'], '___', 'https://en.wikipedia.org/wiki/Open-mid_front_rounded_vowel', 'https://en.wikipedia.org/wiki/File:Open-mid_front_rounded_vowel_(2).ogg', '___', '___'),
+    Phoneme('o', 'voyelle orale', 'Close-mid back rounded vowel', ['o'], ['vélO'], '___', 'https://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel', 'https://en.wikipedia.org/wiki/File:Close-mid_back_rounded_vowel.ogg', '___', '___'),
+    Phoneme('ɔ', 'voyelle orale', 'Open-mid back rounded vowel', ['o'], ['cOlle'], '___', 'https://en.wikipedia.org/wiki/Open-mid_back_rounded_vowel', 'https://en.wikipedia.org/wiki/File:PR-open-mid_back_rounded_vowel.ogg', '___', '___'),
+    Phoneme('u', 'voyelle orale', 'Close back rounded vowel', ['ou'], ['hibOU'], '___', 'https://en.wikipedia.org/wiki/Close_back_rounded_vowel', 'https://en.wikipedia.org/wiki/File:Close_back_rounded_vowel.ogg', '___', '___'),
+])
+
+const fr_voyelles_nasales = PhonemeGroup('voyelles nasales', [
+    Phoneme('ɑ̃', 'voyelle nasale', 'na', ['en'], ['dENt'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'up', 'uwo', 'un'),
+    Phoneme('ɛ̃', 'voyelle nasale', 'na', ['in'], ['lapIN'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'up', 'uwo', 'un'),
+    Phoneme('ɔ̃', 'voyelle nasale', 'na', ['on'], ['bONbON'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'up', 'uwo', 'un'),
+    Phoneme('œ̃', 'voyelle nasale', 'na', ['un'], ['lUNdi'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'up', 'uwo', 'un'),
+])
+
+const fr_semi_voyelles = PhonemeGroup('semi-voyelles', [
+    Phoneme('ɥ', 'semi-voyelle', 'Voiced labial–palatal approximant', ['ui'], ['plUIe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93palatal_approximant', 'https://en.wikipedia.org/wiki/File:LL-Q150_(fra)-WikiLucas00-IPA_%C9%A5.wav', 'uwo', 'un'),
+    Phoneme('w', 'semi-voyelle', 'Voiced labial–velar approximant', ['ou'], ['OUi'], 'no', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant', 'https://en.wikipedia.org/wiki/File:Voiced_labio-velar_approximant.ogg', 'uwo', 'un'),
+    Phoneme('j', 'semi-voyelle', 'Voiced palatal approximant', ['i'], ['cIel'], 'no', 'https://en.wikipedia.org/wiki/Voiced_palatal_approximant', 'https://en.wikipedia.org/wiki/File:Palatal_approximant.ogg', 'uwo', 'un'),
+])
+
+const fr_consonnes_occlusives = PhonemeGroup('consonnes occlusives', [
+    Phoneme('p', 'consonne occlusive', 'Voiceless bilabial plosive', ['p'], ['PaPillon'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_bilabial_plosive', 'https://en.wikipedia.org/wiki/File:Voiceless_bilabial_plosive.ogg', 'uwo', 'un'),
+    Phoneme('b', 'consonne occlusive', 'Voiced bilabial plosive', ['b'], ['Bateau'], 'no', 'https://en.wikipedia.org/wiki/Voiced_bilabial_plosive', 'https://en.wikipedia.org/wiki/File:Voiced_bilabial_plosive.ogg', 'uwo', 'un'),
+    Phoneme('t', 'consonne occlusive', 'Voiceless alveolar plosive', ['t'], ['TomaTe'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_dental_and_alveolar_plosives#Dental_or_denti-alveolar', 'https://en.wikipedia.org/wiki/File:Voiceless_alveolar_plosive.ogg', 'uwo', 'un'),
+    Phoneme('d', 'consonne occlusive', 'Voiced alveolar plosive', ['d'], ['Dé'], 'no', 'https://en.wikipedia.org/wiki/Voiced_dental_and_alveolar_plosives#Dental_or_denti-alveolar', 'https://en.wikipedia.org/wiki/File:Voiced_alveolar_plosive.ogg', 'uwo', 'un'),
+    Phoneme('k', 'consonne occlusive', 'Voiceless velar plosive', ['c'], ['Canard'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_velar_plosive', 'https://en.wikipedia.org/wiki/File:Voiceless_velar_plosive.ogg', 'uwo', 'un'),
+    Phoneme('g', 'consonne occlusive', 'Voiced velar plosive', ['g'], ['draGon'], 'no', 'https://en.wikipedia.org/wiki/Voiced_velar_plosive', 'https://en.wikipedia.org/wiki/File:Voiced_velar_plosive_02.ogg', 'uwo', 'un'),
+])
+
+const fr_consonnes_fricatives = PhonemeGroup('consonnes fricatives', [
+    Phoneme('f', 'consonne fricative', 'Voiceless labiodental fricative', ['f'], ['Fourmi'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_labiodental_fricative', 'Voiceless labiodental fricative', 'uwo', 'un'),
+    Phoneme('v', 'consonne fricative', 'Voiced labiodental fricative', ['v'], ['Vache'], 'no', 'https://en.wikipedia.org/wiki/Voiced_labiodental_fricative', 'https://en.wikipedia.org/wiki/File:Voiced_labio-dental_fricative.ogg', 'uwo', 'un'),
+    Phoneme('s', 'consonne fricative', 'Voiced alveolar sibilant', ['s'], ['Savon'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_alveolar_fricative#Voiceless_alveolar_sibilant', 'https://en.wikipedia.org/wiki/File:Voiceless_alveolar_sibilant.ogg', 'uwo', 'un'),
+    Phoneme('z', 'consonne fricative', 'Voiced alveolar sibilant', ['z'], ['Zèbre'], 'no', 'https://en.wikipedia.org/wiki/Voiced_alveolar_fricative#Voiced_alveolar_sibilant', 'https://en.wikipedia.org/wiki/File:Voiced_alveolar_sibilant.ogg', 'uwo', 'un'),
+    Phoneme('ʃ', 'consonne fricative', 'Voiceless postalveolar fricative', ['ch'], ['CHat'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_postalveolar_fricative', 'Voiceless postalveolar fricative', 'uwo', 'un'),
+    Phoneme('ʒ', 'consonne fricative', 'Voiced postalveolar fricative', ['j'], ['Jouer'], 'no', 'https://en.wikipedia.org/wiki/Voiced_postalveolar_fricative', 'https://en.wikipedia.org/wiki/File:Voiced_palato-alveolar_sibilant.ogg', 'uwo', 'un'),
+])
+
+const fr_consonnes_nasales = PhonemeGroup('consonnes nasales', [
+    Phoneme('m', 'consonne nasale', 'Voiced bilabial nasal', ['m'], ['Maison'], 'no', 'https://en.wikipedia.org/wiki/Voiced_bilabial_nasal', 'https://en.wikipedia.org/wiki/File:Bilabial_nasal.ogg', 'uwo', 'un'),
+    Phoneme('n', 'consonne nasale', 'Voiced alveolar nasal', ['n'], ['Nuage'], 'no', 'https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_nasals', 'https://en.wikipedia.org/wiki/File:Alveolar_nasal.ogg', 'uwo', 'un'),
+    Phoneme('ɲ', 'consonne nasale', 'Voiced palatal nasal', ['gn'], ['cyGNe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_palatal_nasal', 'https://en.wikipedia.org/wiki/File:Palatal_nasal.ogg', 'uwo', 'un'),
+])
+
+const fr_consonnes_liquides = PhonemeGroup('consonnes liquides', [
+    Phoneme('l', 'consonne liquide', 'Voiced alveolar lateral approximant', ['l'], ['Lion'], 'no', 'https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants', 'https://en.wikipedia.org/wiki/File:Alveolar_lateral_approximant.ogg', 'uwo', 'un'),
+    Phoneme('R', 'consonne liquide', 'Voiced uvular fricative', ['r'], ['Robot'], 'no', 'https://en.wikipedia.org/wiki/Voiced_uvular_fricative', 'https://en.wikipedia.org/wiki/File:Voiced_uvular_fricative.ogg', 'uwo', 'un'),
+])
+
+const fr = [
+    fr_voyelles_orales,
+    fr_voyelles_nasales,
+    fr_semi_voyelles,
+    fr_consonnes_occlusives,
+    fr_consonnes_fricatives,
+    fr_consonnes_nasales,
+    fr_consonnes_liquides
+]
