@@ -56,10 +56,10 @@ const fr_voyelles_orales = new PhonemeGroup('voyelles orales', [
 ])
 
 const fr_voyelles_nasales = new PhonemeGroup('voyelles nasales', [
-    new Phoneme('ɑ̃', 'voyelle nasale', 'na', ['en'], ['dENt'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'up', 'uwo', 'un'),
-    new Phoneme('ɛ̃', 'voyelle nasale', 'na', ['in'], ['lapIN'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'up', 'uwo', 'un'),
-    new Phoneme('ɔ̃', 'voyelle nasale', 'na', ['on'], ['bONbON'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'up', 'uwo', 'un'),
-    new Phoneme('œ̃', 'voyelle nasale', 'na', ['un'], ['lUNdi'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'up', 'uwo', 'un'),
+    new Phoneme('ɑ̃', 'voyelle nasale', 'na', ['en'], ['dENt'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/an.mp3', 'uwo', 'un'),
+    new Phoneme('ɛ̃', 'voyelle nasale', 'na', ['in'], ['lapIN'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/in.mp3', 'uwo', 'un'),
+    new Phoneme('ɔ̃', 'voyelle nasale', 'na', ['on'], ['bONbON'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/on.mp3', 'uwo', 'un'),
+    new Phoneme('œ̃', 'voyelle nasale', 'na', ['un'], ['lUNdi'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/un.mp3', 'uwo', 'un'),
 ])
 
 const fr_semi_voyelles = new PhonemeGroup('semi-voyelles', [
