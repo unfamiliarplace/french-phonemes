@@ -38,33 +38,33 @@ class PhonemeGroup {
     }
 }
 
-// Phoneme('s', 'g', 'na', ['sp'], ['wo'], 'no', 'uwi', 'up', 'uwo', 'un');
+// new Phoneme('s', 'g', 'na', ['sp'], ['wo'], 'no', 'uwi', 'up', 'uwo', 'un');
 
 const fr_voyelles_orales = new PhonemeGroup('voyelles orales', [
     new Phoneme('a', 'voyelle orale', 'Open front unrounded vowel', ['a'], ['Avion'], '___', 'https://en.wikipedia.org/wiki/Open_front_unrounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/6/65/Open_front_unrounded_vowel.ogg', '', ''),
     new Phoneme('ɑ', 'voyelle orale', 'Open back unrounded vowel',  ['â'], ['fÂché'], '___', 'https://en.wikipedia.org/wiki/Open_back_unrounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Open_back_unrounded_vowel.ogg', '___', '___'),
-    new Phoneme('e', 'voyelle orale', 'Close-mid front unrounded vowel', ['é','er', 'ez', 'ed', 'ef', 'et', 'es', 'ai'], ['bÉbÉ', 'dansER', 'nEZ', 'piED', 'clEF', 'ET', 'dES', 'mAI'], '___', 'https://en.wikipedia.org/wiki/Close-mid_front_unrounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Close-mid_front_unrounded_vowel.ogg', '___', '___'),
+    new Phoneme('e', 'voyelle orale', 'Close-mid front unrounded vowel', ['é','er', 'ez', 'ed', 'ef', 'et', 'es', 'ai'], ['Étoile', 'dansER', 'nEZ', 'piED', 'clEF', 'ET', 'dES', 'mAI'], '___', 'https://en.wikipedia.org/wiki/Close-mid_front_unrounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Close-mid_front_unrounded_vowel.ogg', '___', '___'),
     new Phoneme('ɛ', 'voyelle orale', 'Open-mid front unrounded vowel', ['è', 'et', 'ê', 'ei', 'ai', 'e'], ['flÈche', 'sifflET', 'fÊte', 'nEIge', 'chAIse', 'cErf'], '___', 'https://en.wikipedia.org/wiki/Open-mid_front_unrounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/7/71/Open-mid_front_unrounded_vowel.ogg', '___', '___'),
     new Phoneme('ə', 'voyelle orale', 'Mid central vowel', ['e'], ['rEnard'], '___', 'https://en.wikipedia.org/wiki/Mid_central_vowel', 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Mid-central_vowel.ogg', '___', '___'),
     new Phoneme('i', 'voyelle orale', 'Close front unrounded vowel', ['i', 'y', 'ï'], ['amIs', 'stYlo', 'Île', 'maÏs'], '___', 'https://en.wikipedia.org/wiki/Close_front_unrounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/9/91/Close_front_unrounded_vowel.ogg', '___', '___'),
     new Phoneme('y', 'voyelle orale', 'Close front rounded vowel', ['u', 'û'], ['lUne', 'flÛte'], '___', 'https://en.wikipedia.org/wiki/Close_front_rounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Close_front_rounded_vowel.ogg', '___', '___'),
-    new Phoneme('ø', 'voyelle orale', 'Close-mid front rounded vowel', ['eu', 'œu'], ['fEU', 'ŒUf'], '___', 'https://en.wikipedia.org/wiki/Close-mid_front_rounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/5/53/Close-mid_front_rounded_vowel.ogg', '___', '___'),
-    new Phoneme('œ', 'voyelle orale', 'Open-mid front ronded vowel', ['œu', 'œ', 'eu', 'ue'], ['cŒUr', 'Œil', 'hEUre', 'cUEillir'], '___', 'https://en.wikipedia.org/wiki/Open-mid_front_rounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Open-mid_front_rounded_vowel_%282%29.ogg', '___', '___'),
-    new Phoneme('o', 'voyelle orale', 'Close-mid back rounded vowel', ['o', 'au', 'o', 'ô'], ['vélO', 'dAUphin', 'fantÔme'], '___', 'https://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/8/84/Close-mid_back_rounded_vowel.ogg', '___', '___'),
+    new Phoneme('ø', 'voyelle orale', 'Close-mid front rounded vowel', ['eu', 'œu'], ['jEU', 'ŒUf'], '___', 'https://en.wikipedia.org/wiki/Close-mid_front_rounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/5/53/Close-mid_front_rounded_vowel.ogg', '___', '___'),
+    new Phoneme('œ', 'voyelle orale', 'Open-mid front ronded vowel', ['œu', 'œ', 'eu'], ['cŒUr', 'Œil', 'hEUre'], '___', 'https://en.wikipedia.org/wiki/Open-mid_front_rounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Open-mid_front_rounded_vowel_%282%29.ogg', '___', '___'),
+    new Phoneme('o', 'voyelle orale', 'Close-mid back rounded vowel', ['au', 'o', 'ô'], ['cadeAU', 'rigOlO', 'fantÔme'], '___', 'https://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/8/84/Close-mid_back_rounded_vowel.ogg', '___', '___'),
     new Phoneme('ɔ', 'voyelle orale', 'Open-mid back rounded vowel', ['o'], ['cOlle'], '___', 'https://en.wikipedia.org/wiki/Open-mid_back_rounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/d/d0/PR-open-mid_back_rounded_vowel.ogg', '___', '___'),
     new Phoneme('u', 'voyelle orale', 'Close back rounded vowel', ['ou', 'oÙ', 'oÛ'], ['hibOU', 'OÙ', 'cOÛter'], '___', 'https://en.wikipedia.org/wiki/Close_back_rounded_vowel', 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Close_back_rounded_vowel.ogg', '___', '___'),
 ])
 
 const fr_voyelles_nasales = new PhonemeGroup('voyelles nasales', [
-    new Phoneme('ɑ̃', 'voyelle nasale', 'na', ['en', 'am', 'en', 'em', 'aon'], ['dENt', 'lAMpe', 'tEMpête', 'fAON'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/an.mp3', 'uwo', 'un'),
+    new Phoneme('ɑ̃', 'voyelle nasale', 'na', ['an', 'en', 'am', 'en', 'em', 'aon'], ['orANge', 'dENt', 'lAMpe', 'tEMpête', 'fAON'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/an.mp3', 'uwo', 'un'),
     new Phoneme('ɛ̃', 'voyelle nasale', 'na', ['in', 'im', 'aim', 'ain', 'ein'], ['lapIN', 'tIMbre', 'fAIM', 'mAIN', 'pEINt'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/in.mp3', 'uwo', 'un'),
     new Phoneme('ɔ̃', 'voyelle nasale', 'na', ['on', 'om'], ['bONbON', 'pOMpier'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/on.mp3', 'uwo', 'un'),
     new Phoneme('œ̃', 'voyelle nasale', 'na', ['un', 'um'], ['lUNdi', 'parfUM'], 'no', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/un.mp3', 'uwo', 'un'),
 ])
 
 const fr_semi_voyelles = new PhonemeGroup('semi-voyelles', [
-    new Phoneme('ɥ', 'semi-voyelle', 'Voiced labial–palatal approximant', ['ui'], ['plUIe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93palatal_approximant', 'https://upload.wikimedia.org/wikipedia/commons/3/32/LL-Q150_%28fra%29-WikiLucas00-IPA_%C9%A5.wav', 'uwo', 'un'),
-    new Phoneme('w', 'semi-voyelle', 'Voiced labial–velar approximant', ['ou'], ['OUi'], 'no', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant', 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Voiced_labio-velar_approximant.ogg', 'uwo', 'un'),
+    new Phoneme('ɥ', 'semi-voyelle', 'Voiced labial–palatal approximant', ['u'], ['nUage'], 'no', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93palatal_approximant', 'https://upload.wikimedia.org/wikipedia/commons/3/32/LL-Q150_%28fra%29-WikiLucas00-IPA_%C9%A5.wav', 'uwo', 'un'),
+    new Phoneme('w', 'semi-voyelle', 'Voiced labial–velar approximant', ['ou'], ['OUest'], 'no', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant', 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Voiced_labio-velar_approximant.ogg', 'uwo', 'un'),
     new Phoneme('j', 'semi-voyelle', 'Voiced palatal approximant', ['i'], ['cIel'], 'no', 'https://en.wikipedia.org/wiki/Voiced_palatal_approximant', 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg', 'uwo', 'un'),
 ])
 
@@ -79,22 +79,32 @@ const fr_consonnes_occlusives = new PhonemeGroup('consonnes occlusives', [
 
 const fr_consonnes_fricatives = new PhonemeGroup('consonnes fricatives', [
     new Phoneme('f', 'consonne fricative', 'Voiceless labiodental fricative', ['f', 'ff', 'ph'], ['Fourmi', 'coiFFeur', 'éléPHant'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_labiodental_fricative', 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Voiceless_labio-dental_fricative.ogg', 'uwo', 'un'),
-    new Phoneme('v', 'consonne fricative', 'Voiced labiodental fricative', ['v', 'w'], ['Vache', 'Wagon'], 'no', 'https://en.wikipedia.org/wiki/Voiced_labiodental_fricative', 'https://upload.wikimedia.org/wikipedia/commons/4/42/Voiced_labio-dental_fricative.ogg', 'uwo', 'un'),
+    new Phoneme('v', 'consonne fricative', 'Voiced labiodental fricative', ['v', 'w'], ['Vélo', 'Wagon'], 'no', 'https://en.wikipedia.org/wiki/Voiced_labiodental_fricative', 'https://upload.wikimedia.org/wikipedia/commons/4/42/Voiced_labio-dental_fricative.ogg', 'uwo', 'un'),
     new Phoneme('s', 'consonne fricative', 'Voiceless alveolar sibilant', ['s', 'ss', 'sc', 'c', 'ç', 't', 'x'], ['Savon', 'poiSSOn', 'piSCine', 'Cerise', 'garÇon', 'poTion', 'diX'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_alveolar_fricative#Voiceless_alveolar_sibilant', 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Voiceless_alveolar_sibilant.ogg', 'uwo', 'un'),
     new Phoneme('z', 'consonne fricative', 'Voiced alveolar sibilant', ['z', 's'], ['Zèbre', 'roSe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_alveolar_fricative#Voiced_alveolar_sibilant', 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Voiced_alveolar_sibilant.ogg', 'uwo', 'un'),
     new Phoneme('ʃ', 'consonne fricative', 'Voiceless postalveolar fricative', ['ch'], ['CHat'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_postalveolar_fricative', 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg', 'uwo', 'un'),
-    new Phoneme('ʒ', 'consonne fricative', 'Voiced postalveolar fricative', ['j', 'g'], ['Jouer', 'Girafe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_postalveolar_fricative', 'https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg', 'uwo', 'un'),
+    new Phoneme('ʒ', 'consonne fricative', 'Voiced postalveolar fricative', ['j', 'g'], ['Jardin', 'Girafe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_postalveolar_fricative', 'https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg', 'uwo', 'un'),
 ])
 
 const fr_consonnes_nasales = new PhonemeGroup('consonnes nasales', [
     new Phoneme('m', 'consonne nasale', 'Voiced bilabial nasal', ['m', 'mm'], ['Maison', 'poMME'], 'no', 'https://en.wikipedia.org/wiki/Voiced_bilabial_nasal', 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Bilabial_nasal.ogg', 'uwo', 'un'),
-    new Phoneme('n', 'consonne nasale', 'Voiced alveolar nasal', ['n', 'nn'], ['Nuage', 'aNNiversaire'], 'no', 'https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_nasals', 'https://upload.wikimedia.org/wikipedia/commons/2/29/Alveolar_nasal.ogg', 'uwo', 'un'),
-    new Phoneme('ɲ', 'consonne nasale', 'Voiced palatal nasal', ['gn'], ['cyGNe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_palatal_nasal', 'https://upload.wikimedia.org/wikipedia/commons/4/46/Palatal_nasal.ogg', 'uwo', 'un'),
+    new Phoneme('n', 'consonne nasale', 'Voiced alveolar nasal', ['n', 'nn'], ['Neige', 'aNNiversaire'], 'no', 'https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_nasals', 'https://upload.wikimedia.org/wikipedia/commons/2/29/Alveolar_nasal.ogg', 'uwo', 'un'),
+    new Phoneme('ɲ', 'consonne nasale', 'Voiced palatal nasal', ['gn'], ['montaGNe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_palatal_nasal', 'https://upload.wikimedia.org/wikipedia/commons/4/46/Palatal_nasal.ogg', 'uwo', 'un'),
 ])
 
 const fr_consonnes_liquides = new PhonemeGroup('consonnes liquides', [
     new Phoneme('l', 'consonne liquide', 'Voiced alveolar lateral approximant', ['l', 'll'], ['Lion', 'baLLe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants', 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Alveolar_lateral_approximant.ogg', 'uwo', 'un'),
     new Phoneme('R', 'consonne liquide', 'Voiced uvular fricative', ['r', 'rr'], ['Robot', 'caRRé'], 'no', 'https://en.wikipedia.org/wiki/Voiced_uvular_fricative', 'https://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg', 'uwo', 'un'),
+])
+
+const fr_diphthongues = new PhonemeGroup('diphthongues', [
+    new Phoneme('wa', 'diphthongue', 'w + a', ['ou'], ['OIseau'], 'no', 'uwi', 'up', 'uwo', 'un'),
+    new Phoneme('ɥi', 'diphthongue', 'ɥ + i', ['ui'], ['frUIts'], 'no', 'uwi', 'up', 'uwo', 'un'),
+    new Phoneme('aj', 'diphthongue', 'a + j', ['aille', 'ail'], ['médAILLE', 'AIL'], 'no', 'uwi', 'up', 'uwo', 'un'),
+    new Phoneme('ɛj', 'diphthongue', 'ɛ + k', ['eille', 'eil'], ['orEILLE', 'solEIL'], 'no', 'uwi', 'up', 'uwo', 'un'),
+    new Phoneme('ij', 'diphthongue', 'i + j', ['ille', 'ill'], ['chenILLE', 'papILLon'], 'no', 'uwi', 'up', 'uwo', 'un'),
+    new Phoneme('œj', 'diphthongue', 'œ + j', ['euille', 'euil', 'ueil'], ['fEUILLE', 'écurEUIL', 'cUEILlir'], 'no', 'uwi', 'up', 'uwo', 'un'),
+    new Phoneme('uj', 'diphthongue', 'u + j', ['ouille'], ['grenOUILLE'], 'no', 'uwi', 'up', 'uwo', 'un'),
 ])
 
 const phonemes_fr = [
