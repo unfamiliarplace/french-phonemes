@@ -94,7 +94,7 @@ const fr_consonnes_nasales = new PhonemeGroup('consonnes nasales', [
 ])
 
 const fr_consonnes_liquides = new PhonemeGroup('consonnes liquides', [
-    new Phoneme('l', 'l', 'consonne liquide', 'Voiced alveolar lateral approximant', ['l'], ['Lion'], 'no', 'https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants', 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Alveolar_lateral_approximant.ogg', 'uwo', 'un'),
+    new Phoneme('l', 'l', 'consonne liquide', 'Voiced alveolar lateral approximant', ['l'], ['Livre'], 'no', 'https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants', 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Alveolar_lateral_approximant.ogg', 'uwo', 'un'),
     new Phoneme('R', 'r', 'consonne liquide', 'Voiced uvular fricative', ['r'], ['Robot'], 'no', 'https://en.wikipedia.org/wiki/Voiced_uvular_fricative', 'https://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg', 'uwo', 'un'),
 ])
 
