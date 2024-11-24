@@ -99,13 +99,13 @@ const fr_consonnes_liquides = new PhonemeGroup('consonnes liquides', [
 ])
 
 const fr_diphthongues = new PhonemeGroup('diphthongues', [
-    new Phoneme('wa', 'wa', 'diphthongue', 'w + a', ['ou'], ['OIseau'], 'no', 'uwi', 'up', 'uwo', 'un'),
-    new Phoneme('ɥi', 'yi', 'diphthongue', 'ɥ + i', ['ui'], ['frUIts'], 'no', 'uwi', 'up', 'uwo', 'un'),
-    new Phoneme('aj', 'aj', 'diphthongue', 'a + j', ['aille', 'ail'], ['médAILLE', 'AIL'], 'no', 'uwi', 'up', 'uwo', 'un'),
-    new Phoneme('ɛj', 'ej', 'diphthongue', 'ɛ + k', ['eille', 'eil'], ['orEILLE', 'solEIL'], 'no', 'uwi', 'up', 'uwo', 'un'),
-    new Phoneme('ij', 'ij', 'diphthongue', 'i + j', ['ille', 'ill'], ['chenILLE', 'papILLon'], 'no', 'uwi', 'up', 'uwo', 'un'),
-    new Phoneme('œj', 'oej', 'diphthongue', 'œ + j', ['euille', 'euil', 'ueil'], ['fEUILLE', 'écurEUIL', 'cUEILlir'], 'no', 'uwi', 'up', 'uwo', 'un'),
-    new Phoneme('uj', 'uj', 'diphthongue', 'u + j', ['ouille'], ['grenOUILLE'], 'no', 'uwi', 'up', 'uwo', 'un'),
+    new Phoneme('wa', 'wa', 'diphthongue', 'w + a', ['ou'], ['OIseau'], 'no', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/wa.mp3', 'uwo', 'un'),
+    new Phoneme('ɥi', 'yi', 'diphthongue', 'ɥ + i', ['ui'], ['frUIts'], 'no', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/yi.mp3', 'uwo', 'un'),
+    new Phoneme('aj', 'aj', 'diphthongue', 'a + j', ['aille', 'ail'], ['médAILLE', 'AIL'], 'no', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/aj.mp3', 'uwo', 'un'),
+    new Phoneme('ɛj', 'ej', 'diphthongue', 'ɛ + k', ['eille', 'eil'], ['orEILLE', 'solEIL'], 'no', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/ej.mp3', 'uwo', 'un'),
+    new Phoneme('ij', 'ij', 'diphthongue', 'i + j', ['ille', 'ill'], ['chenILLE', 'papILLon'], 'no', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/ij.mp3', 'uwo', 'un'),
+    new Phoneme('œj', 'oej', 'diphthongue', 'œ + j', ['euille', 'euil', 'ueil'], ['fEUILLE', 'écurEUIL', 'cUEILlir'], 'no', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/oej.mp3', 'uwo', 'un'),
+    new Phoneme('uj', 'uj', 'diphthongue', 'u + j', ['ouille'], ['grenOUILLE'], 'no', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/uj.mp3', 'uwo', 'un'),
 ])
 
 const phonemes_fr = [
