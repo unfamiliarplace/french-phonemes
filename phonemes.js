@@ -84,7 +84,7 @@ const fr_consonnes_fricatives = new PhonemeGroup('consonnes fricatives', [
     new Phoneme('s', 's', 'consonne fricative', 'Voiceless alveolar sibilant', ['s', 'sc', 'c', 'ç', 't', 'x'], ['Savon', 'piSCine', 'Cerise', 'garÇon', 'poTion', 'diX'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_alveolar_fricative#Voiceless_alveolar_sibilant', 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Voiceless_alveolar_sibilant.ogg', 'uwo', 'un'),
     new Phoneme('z', 'z', 'consonne fricative', 'Voiced alveolar sibilant', ['z', 's'], ['Zèbre', 'roSe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_alveolar_fricative#Voiced_alveolar_sibilant', 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Voiced_alveolar_sibilant.ogg', 'uwo', 'un'),
     new Phoneme('ʃ', 'ss', 'consonne fricative', 'Voiceless postalveolar fricative', ['ch'], ['CHat'], 'no', 'https://en.wikipedia.org/wiki/Voiceless_postalveolar_fricative', 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg', 'uwo', 'un'),
-    new Phoneme('ʒ', 'sz', 'consonne fricative', 'Voiced postalveolar fricative', ['j', 'g'], ['Jardin', 'Girafe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_postalveolar_fricative', 'https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg', 'uwo', 'un'),
+    new Phoneme('ʒ', 'zz', 'consonne fricative', 'Voiced postalveolar fricative', ['j', 'g'], ['Jardin', 'Girafe'], 'no', 'https://en.wikipedia.org/wiki/Voiced_postalveolar_fricative', 'https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg', 'uwo', 'un'),
 ])
 
 const fr_consonnes_nasales = new PhonemeGroup('consonnes nasales', [
