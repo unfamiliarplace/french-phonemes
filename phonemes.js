@@ -64,7 +64,7 @@ const fr_voyelles_nasales = new PhonemeGroup('voyelles nasales', [
 ])
 
 const fr_semi_voyelles = new PhonemeGroup('semi-voyelles', [
-    new Phoneme('ɥ', 'yy', 'semi-voyelle', 'Voiced labial–palatal approximant', ['u'], ['nUage'], 'This is /y/ but really fast.', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93palatal_approximant', 'https://upload.wikimedia.org/wikipedia/commons/3/32/LL-Q150_%28fra%29-WikiLucas00-IPA_%C9%A5.wav', 'uwo', 'un'),
+    new Phoneme('ɥ', 'yy', 'semi-voyelle', 'Voiced labial–palatal approximant', ['u'], ['hUit'], 'This is /y/ but really fast.', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93palatal_approximant', 'https://upload.wikimedia.org/wikipedia/commons/3/32/LL-Q150_%28fra%29-WikiLucas00-IPA_%C9%A5.wav', 'uwo', 'un'),
     new Phoneme('w', 'w', 'semi-voyelle', 'Voiced labial–velar approximant', ['ou'], ['OUest'], 'Same as English /w/.', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant', 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Voiced_labio-velar_approximant.ogg', 'uwo', 'un'),
     new Phoneme('j', 'j', 'semi-voyelle', 'Voiced palatal approximant', ['i'], ['cIel'], 'Same as English /j/ (i.e., the sound that begins the word "yes").', 'https://en.wikipedia.org/wiki/Voiced_palatal_approximant', 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg', 'uwo', 'un'),
 ])
@@ -99,8 +99,6 @@ const fr_consonnes_liquides = new PhonemeGroup('consonnes liquides', [
 ])
 
 const fr_diphthongues = new PhonemeGroup('diphthongues', [
-    new Phoneme('wa', 'wa', 'diphthongue', 'w + a', ['ou'], ['OIseau'], 'A diphthong is two vowel sounds packed into one, in this case /w/ gliding into /a/.', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/wa.mp3', 'uwo', 'un'),
-    new Phoneme('ɥi', 'yi', 'diphthongue', 'ɥ + i', ['ui'], ['frUIts'], 'A diphthong is two vowel sounds packed into one, in this case /ɥ/ gliding into /i/.', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/yi.mp3', 'uwo', 'un'),
     new Phoneme('aj', 'aj', 'diphthongue', 'a + j', ['aille', 'ail'], ['médAILLE', 'AIL'], 'A diphthong is two vowel sounds packed into one, in this case /a/ gliding into /j/.<br><br>Very much like English "eye".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/aj.mp3', 'uwo', 'un'),
     new Phoneme('ɛj', 'ej', 'diphthongue', 'ɛ + k', ['eille', 'eil'], ['orEILLE', 'solEIL'], 'A diphthong is two vowel sounds packed into one, in this case /ɛ/ gliding into /j/.<br><br>Very much like English "day".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/ej.mp3', 'uwo', 'un'),
     new Phoneme('ij', 'ij', 'diphthongue', 'i + j', ['ille', 'ill'], ['chenILLE', 'papILLon'], 'A diphthong is two vowel sounds packed into one, in this case /i/ gliding into /j/.<br><br>Very much like English "bee".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/ij.mp3', 'uwo', 'un'),
