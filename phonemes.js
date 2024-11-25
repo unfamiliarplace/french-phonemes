@@ -64,7 +64,7 @@ const fr_voyelles_nasales = new PhonemeGroup('voyelles nasales', [
 ])
 
 const fr_semi_voyelles = new PhonemeGroup('semi-voyelles', [
-    new Phoneme('ɥ', 'yy', 'semi-voyelle', 'Voiced labial–palatal approximant', ['u'], ['hUit'], 'This is /y/ but really fast.', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93palatal_approximant', 'https://upload.wikimedia.org/wikipedia/commons/3/32/LL-Q150_%28fra%29-WikiLucas00-IPA_%C9%A5.wav', 'uwo', 'un'),
+    new Phoneme('ɥ', 'yy', 'semi-voyelle', 'Voiced labial–palatal approximant', ['u'], ['nUit'], 'This is /y/ but really fast.', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93palatal_approximant', 'https://upload.wikimedia.org/wikipedia/commons/3/32/LL-Q150_%28fra%29-WikiLucas00-IPA_%C9%A5.wav', 'uwo', 'un'),
     new Phoneme('w', 'w', 'semi-voyelle', 'Voiced labial–velar approximant', ['ou'], ['OUest'], 'Same as English /w/.', 'https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant', 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Voiced_labio-velar_approximant.ogg', 'uwo', 'un'),
     new Phoneme('j', 'j', 'semi-voyelle', 'Voiced palatal approximant', ['i'], ['cIel'], 'Same as English /j/ (i.e., the sound that begins the word "yes").', 'https://en.wikipedia.org/wiki/Voiced_palatal_approximant', 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg', 'uwo', 'un'),
 ])
