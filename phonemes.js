@@ -57,10 +57,10 @@ const fr_voyelles_orales = new PhonemeGroup('voyelles orales', [
 ])
 
 const fr_voyelles_nasales = new PhonemeGroup('voyelles nasales', [
-    new Phoneme('ɑ̃', 'an', 'voyelle nasale', 'na', ['an', 'en', 'am', 'en', 'em', 'aon'], ['orANge', 'dENt', 'lAMpe', 'tEMpête', 'fAON'], 'Not in English.', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/an.mp3', 'uwo', 'un'),
-    new Phoneme('ɛ̃', 'in', 'voyelle nasale', 'na', ['in', 'im', 'aim', 'ain', 'ein'], ['lapIN', 'tIMbre', 'fAIM', 'mAIN', 'pEINt'], 'Not in English.', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/in.mp3', 'uwo', 'un'),
-    new Phoneme('ɔ̃', 'on', 'voyelle nasale', 'na', ['on', 'om'], ['bONbON', 'pOMpier'], 'Not in English.', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/on.mp3', 'uwo', 'un'),
-    new Phoneme('œ̃', 'un', 'voyelle nasale', 'na', ['un', 'um'], ['lUNdi', 'parfUM'], 'Not in English.', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/un.mp3', 'uwo', 'un'),
+    new Phoneme('ɑ̃', 'an', 'voyelle nasale', 'na', ['an', 'en', 'am', 'en', 'em', 'aon'], ['orANge', 'dENt', 'lAMpe', 'tEMpête', 'fAON'], 'Not in English.', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://t.sawczak.com/phonemes/assets/symbols/an.mp3', 'uwo', 'un'),
+    new Phoneme('ɛ̃', 'in', 'voyelle nasale', 'na', ['in', 'im', 'aim', 'ain', 'ein'], ['lapIN', 'tIMbre', 'fAIM', 'mAIN', 'pEINt'], 'Not in English.', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://t.sawczak.com/phonemes/assets/symbols/in.mp3', 'uwo', 'un'),
+    new Phoneme('ɔ̃', 'on', 'voyelle nasale', 'na', ['on', 'om'], ['bONbON', 'pOMpier'], 'Not in English.', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://t.sawczak.com/phonemes/assets/symbols/on.mp3', 'uwo', 'un'),
+    new Phoneme('œ̃', 'un', 'voyelle nasale', 'na', ['un', 'um'], ['lUNdi', 'parfUM'], 'Not in English.', 'https://en.wikipedia.org/wiki/Nasal_vowel', 'https://t.sawczak.com/phonemes/assets/symbols/un.mp3', 'uwo', 'un'),
 ])
 
 const fr_semi_voyelles = new PhonemeGroup('semi-voyelles', [
@@ -99,11 +99,11 @@ const fr_consonnes_liquides = new PhonemeGroup('consonnes liquides', [
 ])
 
 const fr_diphthongues = new PhonemeGroup('diphthongues', [
-    new Phoneme('aj', 'aj', 'diphthongue', 'a + j', ['aille', 'ail'], ['médAILLE', 'AIL'], 'A diphthong is two vowel sounds packed into one, in this case /a/ gliding into /j/.<br><br>Very much like English "eye".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/aj.mp3', 'uwo', 'un'),
-    new Phoneme('ɛj', 'ej', 'diphthongue', 'ɛ + k', ['eille', 'eil'], ['orEILLE', 'solEIL'], 'A diphthong is two vowel sounds packed into one, in this case /ɛ/ gliding into /j/.<br><br>Very much like English "day".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/ej.mp3', 'uwo', 'un'),
-    new Phoneme('ij', 'ij', 'diphthongue', 'i + j', ['ille', 'ill'], ['chenILLE', 'papILLon'], 'A diphthong is two vowel sounds packed into one, in this case /i/ gliding into /j/.<br><br>Very much like English "bee".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/ij.mp3', 'uwo', 'un'),
-    new Phoneme('œj', 'oej', 'diphthongue', 'œ + j', ['euille', 'euil', 'ueil'], ['fEUILLE', 'écurEUIL', 'cUEILlir'], 'A diphthong is two vowel sounds packed into one, in this case /œ/ gliding into /j/.<br><br>There\'s no real equivalent in English.', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/oej.mp3', 'uwo', 'un'),
-    new Phoneme('uj', 'uj', 'diphthongue', 'u + j', ['ouille'], ['grenOUILLE'], 'A diphthong is two vowel sounds packed into one, in this case /u/ gliding into /j/.<br><br>Very much like English "gooey".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://tools.unfamiliarplace.com/phonemes/assets/symbols/uj.mp3', 'uwo', 'un'),
+    new Phoneme('aj', 'aj', 'diphthongue', 'a + j', ['aille', 'ail'], ['médAILLE', 'AIL'], 'A diphthong is two vowel sounds packed into one, in this case /a/ gliding into /j/.<br><br>Very much like English "eye".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://t.sawczak.com/phonemes/assets/symbols/aj.mp3', 'uwo', 'un'),
+    new Phoneme('ɛj', 'ej', 'diphthongue', 'ɛ + k', ['eille', 'eil'], ['orEILLE', 'solEIL'], 'A diphthong is two vowel sounds packed into one, in this case /ɛ/ gliding into /j/.<br><br>Very much like English "day".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://t.sawczak.com/phonemes/assets/symbols/ej.mp3', 'uwo', 'un'),
+    new Phoneme('ij', 'ij', 'diphthongue', 'i + j', ['ille', 'ill'], ['chenILLE', 'papILLon'], 'A diphthong is two vowel sounds packed into one, in this case /i/ gliding into /j/.<br><br>Very much like English "bee".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://t.sawczak.com/phonemes/assets/symbols/ij.mp3', 'uwo', 'un'),
+    new Phoneme('œj', 'oej', 'diphthongue', 'œ + j', ['euille', 'euil', 'ueil'], ['fEUILLE', 'écurEUIL', 'cUEILlir'], 'A diphthong is two vowel sounds packed into one, in this case /œ/ gliding into /j/.<br><br>There\'s no real equivalent in English.', 'https://en.wikipedia.org/wiki/Diphthong', 'https://t.sawczak.com/phonemes/assets/symbols/oej.mp3', 'uwo', 'un'),
+    new Phoneme('uj', 'uj', 'diphthongue', 'u + j', ['ouille'], ['grenOUILLE'], 'A diphthong is two vowel sounds packed into one, in this case /u/ gliding into /j/.<br><br>Very much like English "gooey".', 'https://en.wikipedia.org/wiki/Diphthong', 'https://t.sawczak.com/phonemes/assets/symbols/uj.mp3', 'uwo', 'un'),
 ])
 
 const phonemes_fr = [
