@@ -148,6 +148,7 @@ AM
 avion
 >aa
 neige
+fête
 chaise
 lune
 oeuf
@@ -179,12 +180,13 @@ chenille
 
 EC
 étoile
+fête
 île
 >y
 lune
 colle
 orange
-dans
+dent
 lampe
 tempête
 faon
@@ -254,7 +256,7 @@ hibou
 où
 >an
 orange
-dans
+dent
 lampe
 faon
 >on
@@ -292,6 +294,7 @@ ail
 chenille
 papillon
 >oej
+feuille
 >uj
 
 CB
@@ -401,7 +404,7 @@ ouest
 >j
 ciel
 >an
-dans
+dent
 faon
 >in
 lapin
@@ -528,6 +531,8 @@ cerise
 chenille
 
 LS
+fête
+feuille
 >aj
 >an
 >ej

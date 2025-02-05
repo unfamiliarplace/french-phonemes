@@ -3,7 +3,7 @@ from pathlib import Path
 master = []
 parts = {}
 
-with open('recordings.txt', 'r', encoding='utf-8') as f:
+with open('recordings/recordings.txt', 'r', encoding='utf-8') as f:
     state = 0
     name = ''
 
