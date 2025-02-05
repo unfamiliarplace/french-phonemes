@@ -31,4 +31,4 @@ for person in parts:
         d = targets['phonemes'] if item.startswith('_') else targets['words']
         d.setdefault(item.strip('_'), []).append(str(target))
 
-print(targets)
+# print(targets)
