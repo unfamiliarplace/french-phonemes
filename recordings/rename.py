@@ -1,31 +1,34 @@
 from pathlib import Path
+import parse
 
-master = []
-parts = {}
+PATH_AUDIO = Path('recordings/audio')
 
-with open('recordings/recordings.txt', 'r', encoding='utf-8') as f:
-    state = 0
-    name = ''
+master, parts = parse.get_master_and_parts()
 
-    for line in f.readlines():
-        line = line.strip()
+targets = {
+    'phonemes': {},
+    'words': {}
+}
 
-        if state == 0:
-            name = line
-            parts[name] = []
-            state = 1
-        
-        elif state == 1:
-            if line:
-                parts[name].append(line)
-            else:
-                state = 0
+for person in parts:
+    paths = list((PATH_AUDIO / person).glob('-*.mp3'))
 
-master = parts.pop('[ALL]')
+    # print(person)
+    # print(len(paths), 'files')
+    # print(len(parts[person]), 'records')
+    # print()
 
-missing = []
-for thing in master:
-    if not any(thing in part for part in parts.values()):
-        missing.append(thing)
+    for (i, path) in enumerate(sorted(paths, key=str)):
+        item = parts[person][i]
+        target = PATH_AUDIO / person / f'{item}.mp3'
 
-print(missing)
+        # print(path)
+        # print(target)
+        # print()
+
+        path.replace(target)
+
+        d = targets['phonemes'] if item.startswith('_') else targets['words']
+        d.setdefault(item.strip('_'), []).append(str(target))
+
+print(targets)
