@@ -36,5 +36,9 @@ for person in parts:
         d = targets['phonemes'] if item.startswith('_') else targets['words']
         d.setdefault(item.strip('_'), []).append(str(target).replace('\\', '/'))
 
+for subset in targets.values():
+    for item in subset:
+        subset[item] = list(set(subset[item])) # remove duplicates...
+
 with open('recordings_fr.js', 'w', encoding='utf-8') as f:
     f.write('const recordings_fr = ' + targets + '};')
