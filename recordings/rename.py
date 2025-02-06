@@ -1,7 +1,12 @@
 from pathlib import Path
 import parse
+import unicodedata
 
 PATH_AUDIO = Path('recordings/audio')
+
+def deaccent(s: str) -> str:
+    norm = unicodedata.normalize('NFKD', s)  
+    return ''.join([c for c in norm if not unicodedata.combining(c)])  
 
 master, parts = parse.get_master_and_parts()
 
@@ -19,7 +24,7 @@ for person in parts:
     # print()
 
     for (i, path) in enumerate(sorted(paths, key=str)):
-        item = parts[person][i]
+        item = deaccent(parts[person][i])
         target = PATH_AUDIO / person / f'{item}.mp3'
 
         # print(path)
@@ -29,6 +34,7 @@ for person in parts:
         path.replace(target)
 
         d = targets['phonemes'] if item.startswith('_') else targets['words']
-        d.setdefault(item.strip('_'), []).append(str(target))
+        d.setdefault(item.strip('_'), []).append(str(target).replace('\\', '/'))
 
-# print(targets)
+with open('recordings_fr.js', 'w', encoding='utf-8') as f:
+    f.write('const recordings_fr = ' + targets + '};')
