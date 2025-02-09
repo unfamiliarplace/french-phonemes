@@ -10,9 +10,10 @@ def get_master_and_parts() -> list:
             line = line.strip()
 
             if state == 0:
-                name = line
-                parts[name] = []
-                state = 1
+                if line:
+                    name = line
+                    parts[name] = []
+                    state = 1
             
             elif state == 1:
                 if line:

@@ -94,7 +94,7 @@ const fr_consonnes_nasales = new PhonemeGroup('consonnes nasales', [
 ])
 
 const fr_consonnes_liquides = new PhonemeGroup('consonnes liquides', [
-    new Phoneme('l', 'l', 'consonne liquide', 'Voiced alveolar lateral approximant', ['l'], ['Livre'], 'Unlike in English, the tongue touches the back of the teeth, not the alveolar ridge right behind the teeth.<br><br>Also, in English we have a different /l/ at the end of a syllable. In French it\s always the same /l/.', 'https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants', 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Alveolar_lateral_approximant.ogg', 'uwo', 'un'),
+    new Phoneme('l', 'l', 'consonne liquide', 'Voiced alveolar lateral approximant', ['l'], ['Livre'], 'Unlike in English, the tongue touches the back of the teeth, not the alveolar ridge right behind the teeth.<br><br>Also, in English we have a different /l/ at the end of a syllable. In French it\'s always the same /l/.', 'https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants', 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Alveolar_lateral_approximant.ogg', 'uwo', 'un'),
     new Phoneme('R', 'r', 'consonne liquide', 'Voiced uvular fricative', ['r'], ['Robot'], 'There are three main pronunciations: uvular trill /ʀ/, uvular fricative /ʁ/, and less common alveolar trill /r/, the latter being shared with Spanish, Italian, Romanian, etc.', 'https://en.wikipedia.org/wiki/Voiced_uvular_fricative', 'https://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg', 'uwo', 'un'),
 ])
 
