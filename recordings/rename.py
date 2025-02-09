@@ -40,5 +40,8 @@ for subset in targets.values():
     for item in subset:
         subset[item] = list(set(subset[item])) # remove duplicates...
 
+with open('recordings_fr.py', 'w', encoding='utf-8') as f:
+    f.write('recordings_fr = ' + str(targets))
+
 with open('recordings_fr.js', 'w', encoding='utf-8') as f:
-    f.write('const recordings_fr = ' + targets + '};')
+    f.write('const recordings_fr = ' + str(targets) + ';')
