@@ -1,8 +1,8 @@
-def get_master_and_parts() -> list:
+def get_master_and_parts(source: str='recordings/recordings.txt') -> list:
     master = []
     parts = {}
 
-    with open('recordings/recordings.txt', 'r', encoding='utf-8') as f:
+    with open(source, 'r', encoding='utf-8') as f:
         state = 0
         name = ''
 
